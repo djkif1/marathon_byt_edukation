@@ -261,6 +261,34 @@ body {
     margin: 0 auto
 }
 
+.commerce {
+    margin-bottom: 136px;
+    text-align: center;
+}
+
+.commerce_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #000000;
+    margin-bottom: 79px;
+}
+
+.commerce_pretitle {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    margin-top: 42px;
+    margin-bottom: 16px;
+}
+
+.commerce_text {
+    width: 316px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px
+}
+
 .footer_link {
     font-weight: 700;
     line-height: 21px;
