@@ -1,111 +1,467 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Marathon</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.css">
+    <title>Relvis</title>
+
 </head>
-
 <body>
-    <header class="container header flex">
-        <div><a href="#"><img src="./img/Logo.svg" alt="logo"></a></div>
-        <nav class="header_nav">
-            <ul class="header_ul">
-                <li class="header_li"><a class="header_link" href="#">Why Qubit?</a></li>
-                <li class="header_li"><a class="header_link" href="#">Products</a></li>
-                <li class="header_li"><a class="header_link" href="#">Solutions</a></li>
-                <li class="header_li"><a class="header_link" href="#">Customers</a></li>
-            </ul>
-        </nav>
-        <div><button class="button">
-                Book a demo
-            </button>
-        </div>
-    </header>
-    <section class="main">
-        <div class="container flex">
-            <div>
-                <h1 class="main_title">Make ecommerce
-                    <span class="main_title-violet">More personal.</span>
-                </h1>
-                <p class="main_text">Hundreds of brands use <span class="main_text-bold">Qubit CommerceAI</span> to power the next generation of product recommendations, badging and insights to build exceptional customer experiences.</p>
-                <form action="#">
-                    <input class="main_input" type="email" placeholder="Enter your email">
-                    <button class="button main_button">Book a demo</button>
-                </form>
+	<div class="wrapper">
+
+        <header class="header">
+            <div class="header__container container">
+                <a href="" class="header__logo">Relvise</a>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="" class="menu__link">Home</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Product</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Pricing</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div>
-                <img src="./img/IMAGE.svg" alt="hand">
+        </header>
+
+        <main class="page">
+            <div class="page__main-block main-block">
+                    <div class="main-block__container container">
+                        <div class="main-block__body">
+                                <h1 class="main-block__title">Finance and Consultancy Solution
+                                </h1>
+                                <div class="main-block__text">We know how large objects will act, 
+                                    but things on a small scale.
+                                </div>
+                                <div class="main-block__buttons">
+                                    <a href="" class="main-block__button main-block__button_orange">Get Quote Now</a>
+                                    <a href="" class="main-block__button main-block__button_border">Learn More</a>
+                                </div>
+                        </div>
+                        <div class="main-block__image _ibg">
+                            <img src="img/main_block/cover.jpg" alt="cover">
+                        </div>
+                    </div>
             </div>
-        </div>
-    </section>
-    <section class="container flex grow">
-        <h2 class="grow_title">Grow 2.5x faster than your competitors.</h2>
-        <div class="grow_flex ">
-            <div class="grow_element">
-                <img src="img/img1.png" alt="`1">
-                <div class="grow_item">
-                    <h3 class="grow_pretitle">RIVER ISLAND</h3>
-                    <p class="grow_text">River Island transforms the customer experience with personalization.</p>
+            
+            <section class="page__services services">
+                <div class="services__container container">
+                    <div class="services__body">
+                        <div class="services__column">
+                            <div class="services__item item-services">
+                                <div class="item__services_icon">
+                                    <img src="img/services/1.svg" alt="service">
+                                </div>
+                                    <h3 class="item-service__title">Environmental 
+                                        Consulting
+                                    </h3>
+                                    <div class="item__services_text">We focus on ergonomics and 
+                                        meeting you where you work. 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services__column">
+                                <div class="services__item item-services">
+                                    <div class="item__services_icon">
+                                        <img src="img/services/2.svg" alt="Finance and 
+                                        consultancy">
+                                    </div>
+                                    <h3 class="item-service__title">Finance and 
+                                        consultancy
+                                    </h3>
+                                    <div class="item__services_text">Just type what's on your mind 
+                                        and we'll get you there. 
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="services__column">
+                            <div class="services__item item-services item-services_green">
+                                <div class="item__services_icon">
+                                    <img src="img/services/3.svg" alt="Financial Services 
+                                    Consulting">
+                                </div>
+                                <h3 class="item-service__title"> Financial Services 
+                                    Consulting</h3>
+                                <div class="item__services_text">the quick fox jumps over the 
+                                    lazy dog </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page__advanteges advanteges">
+                <div class="advanteges__container container">
+                    <div class="advanteges__header header-block">
+                        <h2 class="header-block__title">Designing Better Experience</h2>
+                        <div class="header-block__sub-title">Problems trying to resolve the conflict between the two major realms <br>
+                            of Classical physics: Newtonian mechanics 
+                        </div>
+                    </div> 
+                    <div class="advanteges__body">
+                        <div class="advanteges__column">
+                            <div class="advanteges__item">
+                                <div class="advanteges__icon">
+                                    <img src="img/advanteges/01.svg" alt="Consumer Products">
+                                </div>
+                                <div class="advanteges__value">972 +</div>
+                                <div class="advanteges__text">Consumer Products </div>
+                            </div>
+                        </div>
+                        <div class="advanteges__column">
+                            <div class="advanteges__item">
+                                <div class="advanteges__icon">
+                                    <img src="img/advanteges/02.svg" alt="Financial Services">
+                                </div>
+                                <div class="advanteges__value">181 +</div>
+                                <div class="advanteges__text">Financial Services  </div>
+                            </div>
+                        </div>
+                        <div class="advanteges__column">
+                            <div class="advanteges__item">
+                                <div class="advanteges__icon">
+                                    <img src="img/advanteges/03.svg" alt="Environmental">
+                                </div>
+                                <div class="advanteges__value">98%</div>
+                                <div class="advanteges__text">Environmental </div>
+                            </div>
+                        </div>
+                        <div class="advanteges__column">
+                            <div class="advanteges__item">
+                                <div class="advanteges__icon">
+                                    <img src="img/advanteges/04.svg" alt="Business & Finance ">
+                                </div>
+                                <div class="advanteges__value">746 +</div>
+                                <div class="advanteges__text">Business & Finance  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page__practice practice">
+                <div class="practice__container container">
+                    <div class="practice__header header-block">
+                        <h2 class="header-block__title">Practice Advice</h2>
+                        <div class="header-block__sub-title">Problems trying to resolve the conflict between <br>
+                            the two major realms of Classical physics: Newtonian mechanics 
+                        </div>
+                    </div> 
+                    <div class="practice__body">
+                        <div class="practice__column">
+                            <article class="practice__item item-practice">
+                                <div class="item-practice__content">
+                                <a href="" class="item-practice__link">
+                                    <h4 class="item-practice__title">A single source 
+                                        of truth</h4>
+                                </a>
+                                <div class="item-practice__text">
+                                    Newton thought that 
+                                    light was made up of 
+                                    particles, but then it 
+                                    was discovered 
+                                </div>
+                            </div>
+                                <a href="
+                                " class="item-practice__image _ibg">
+                                <img src="img/Practice/01.jpg" alt="A single source 
+                                of truth">
+                            </a>
+                            </article>
+                        </div>
+                        <div class="practice__column">
+                            <article class="practice__item item-practice">
+                                <div class="item-practice__content">
+                                <a href="" class="item-practice__link">
+                                    <h4 class="item-practice__title">Fastest way to 
+                                        organize</h4>
+                                </a>
+                                <div class="item-practice__text">
+                                    “Quantum mechanics” 
+                                    is the description of the 
+                                    behaviour of matter 
+                                </div>
+                            </div>
+                                <a href="
+                                " class="item-practice__image _ibg">
+                                <img src="img/Practice/02.jpg" alt="A single source 
+                                of truth">
+                            </a>
+                            </article>
+                        </div>
+                        <div class="practice__column">
+                            <article class="practice__item item-practice">
+                                <div class="item-practice__content">
+                                <a href="" class="item-practice__link">
+                                    <h4 class="item-practice__title">Fastest way to 
+                                        take action</h4>
+                                </a>
+                                <div class="item-practice__text">
+                                    They describe a 
+                                    universe consisting of 
+                                    bodies moving
+                                </div>
+                            </div>
+                                <a href="
+                                " class="item-practice__image _ibg">
+                                <img src="img/Practice/03.jpg" alt="A single source 
+                                of truth">
+                            </a>
+                            </article>
+                        </div>
+                        <div class="practice__column">
+                            <article class="practice__item item-practice">
+                                <div class="item-practice__content">
+                                <a href="" class="item-practice__link">
+                                    <h4 class="item-practice__title">Work better 
+                                        together</h4>
+                                </a>
+                                <div class="item-practice__text">
+                                    They finally obtained 
+                                    a consistent description 
+                                    of the behaviour 
+                                </div>
+                            </div>
+                                <a href="
+                                " class="item-practice__image _ibg">
+                                <img src="img/Practice/4.jpg" alt="A single source 
+                                of truth">
+                            </a>
+                            </article>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+
+            <section class="page__whoweare whoweare">
+                <div class="whoweare__container container">
+                    <div class="whoweare__header header-block">
+                        <h2 class="header-block__title">Who We Are</h2>
+                        <div class="header-block__sub-title">Problems trying to resolve the conflict between the two major realms <br>
+                            of Classical physics: Newtonian mechanics  
+                        </div>
+                    </div> 
+                    <div class="whoweare__body">
+                        <div class="whoweare__video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/0UUK4VDblXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="whoweare__content">
+                            <div class="whoweare__top">
+                                <h2 class="whoweare_title">Most trusted in our field</h2>
+                                <div class="whoweare_text">Most calendars are designed for teams. Slate 
+                                    is designed for freelancers who want a simple way to plan their schedule.</div>
+                            </div>
+                            <div class="whoweare__items">
+                                <div class="whoweare__item item-whoweare">
+                                    <div class="item-whoweare__icon">
+                                        <img src="img/whoweare/icon/1.svg" alt="">
+                                    </div>
+                                    <div class="item-whoweare__body">
+                                        <div class="item-whoweare__title">the quick fox jumps over the lazy 
+                                            dog</div>
+                                        <div class="item-whoweare__text">Things on a very small scale Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt eos repellendus laboriosam recusandae quia, sint excepturi libero pariatur fugiat rem asperiores quo maxime alias earum amet itaque fugit dolorum. Quasi?</div>
+                                    </div>
+                                </div>
+                                <div class="whoweare__item item-whoweare">
+                                    <div class="item-whoweare__icon">
+                                        <img src="img/whoweare/icon/2.svg" alt="">
+                                    </div>
+                                    <div class="item-whoweare__body">
+                                        <div class="item-whoweare__title">the quick fox jumps over the lazy 
+                                            dog</div>
+                                        <div class="item-whoweare__text">Things on a very small scale Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt eos repellendus laboriosam recusandae quia, sint excepturi libero pariatur fugiat rem asperiores quo maxime alias earum amet itaque fugit dolorum. Quasi?</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="page__clients clients">
+                <div class="clients__container container">
+                    <div class="clients__items">
+                        <div class="client__item">
+                            <img src="img/cliente/1.png" alt="clients">
+                        </div>
+                        <div class="client__item">
+                            <img src="img/cliente/2.png" alt="clients">
+                        </div>
+                        <div class="client__item">
+                            <img src="img/cliente/3.png" alt="clients">
+                        </div>
+                        <div class="client__item">
+                            <img src="img/cliente/4.png" alt="clients">
+                        </div>
+                        <div class="client__item">
+                            <img src="img/cliente/5.png" alt="clients">
+                        </div>
+                        <div class="client__item">
+                            <img src="img/cliente/6.png" alt="clients">
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <div class="grow_element">
-                <img src="img/img2.png" alt="`1">
-                <div class="grow_item">
-                    <h3 class="grow_pretitle">RIVER ISLAND</h3>
-                    <p class="grow_text">River Island transforms the customer experience with personalization.</p>
+
+            <section class="page__subscribe subscribe">
+                <div class="subscribe_container container">
+                    <div class="subscribe__body">
+                        <h4 class="subscribe__title">Subscribe For Latest 
+                            Newsletter</h4>
+                        <form action="#" class="subscribe__form">
+                            <input autocomplete="off" type="email" required name="form[]" placeholder="Your Email" class="subscribe__input">
+                            <button type="submit" class="subscribe__button">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page__getintouch getintouch">
+                <div class="getintouch__container container">
+                    <div class="getintouch__header header-block">
+                        <h2 class="header-block__title">Get In Touch</h2>
+                        <div class="header-block__sub-title">Problems trying to resolve the conflict between <br>
+                            the two major realms of Classical physics: Newtonian mechanics 
+                        </div>
+                    </div> 
+                    <div class="getintouch__items">
+                        <div class="getintouch__item item-getintouch">
+                            <div class="item-getintouch__icon">
+                                <img src="img/getintouch/1.svg" alt="emails">
+                            </div>
+                            <div class="item-getintouch__emails">
+                                <a href="mailto:georgia.young@ple.com" class="item-getintouch__email">georgia.young@ple.com</a>
+                                <a href="mailto:georgia.young@example.com" class="item-getintouch__email">georgia.young@example.com</a>
+                            </div>
+                            <div class="item-getintouch__label">Get Support</div>
+                            <a href="mailto:" class="item-getintouch__button">Submit Request</a>
+                        </div>
+                        <div class="getintouch__item item-getintouch item-getintouch_active">
+                            <div class="item-getintouch__icon">
+                                <img src="/img/getintouch/2.svg" alt="emails">
+                            </div>
+                            <div class="item-getintouch__emails">
+                                <a href="mailto:georgia.young@ple.com" class="item-getintouch__email">georgia.young@ple.com</a>
+                                <a href="mailto:georgia.young@example.com" class="item-getintouch__email">georgia.young@example.com</a>
+                            </div>
+                            <div class="item-getintouch__label">Get Support</div>
+                            <a href="mailto:" class="item-getintouch__button">Submit Request</a>
+                        </div>
+                        <div class="getintouch__item item-getintouch">
+                            <div class="item-getintouch__icon">
+                                <img src="img/getintouch/3.svg" alt="emails">
+                            </div>
+                            <div class="item-getintouch__emails">
+                                <a href="mailto:georgia.young@ple.com" class="item-getintouch__email">georgia.young@ple.com</a>
+                                <a href="mailto:georgia.young@example.com" class="item-getintouch__email">georgia.young@example.com</a>
+                            </div>
+                            <div class="item-getintouch__label">Get Support</div>
+                            <a href="mailto:" class="item-getintouch__button">Submit Request</a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="page__contact contact">
+                <div class="contact__container container">
+                    <div class="contact__body">
+                        <div class="contact__content">
+                            <h4 class="contact__title">Consulting Agency For Your Business</h4>
+                            <div class="contact__text">the quick fox jumps over the lazy dog</div>
+                        </div>
+                            <a href="#" class="contact__button">Contact Us</a>
+                        
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer class="footer ">
+            <div class="footer__top">
+                <div class="footer__main container">
+                    <div class="footer_row">
+                        <div class="footer_column">
+                            <div class="footer__label">Company Info</div>
+                            <nav class="footer__menu menu__footer">
+                                <ul class="menu-footer__list">
+                                    <li class="menu-footer__item"><a href="" class="menu-futer__link">About Us</a></li>
+                                    <li class="menu-footer__item"><a href="" class="menu-futer__link">Carrier</a></li>
+                                    <li class="menu-footer__item"><a href="" class="menu-futer__link">We are hiring</a></li>
+                                    <li class="menu-footer__item"><a href="" class="menu-futer__link">Blog</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer_column">
+                            <div class="footer__label">Legal</div>
+                            <nav class="footer__menu menu__footer">
+                                <ul class="menu-footer__list">
+                                    <li class="menu-footer__item"><a href="" class="menu-futer__link">About Us</a></li>
+                                    <li class="menu-footer__item"><a href="" class="menu-futer__link">Carrier</a></li>
+                                    <li class="menu-footer__item"><a href="" class="menu-futer__link">We are hiring</a></li>
+                                    <li class="menu-footer__item"><a href="" class="menu-futer__link">Blog</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer_column">
+                            <div class="footer__label">Features</div>
+                            <nav class="footer__menu menu__footer">
+                                <ul class="menu-footer__list">
+                                    <li class="menu-footer__item"><a href="" class="menu-futer__link">Business Marketing</a></li>
+                                    <li class="menu-footer__item"><a href="" class="menu-futer__link">User Analytic</a></li>
+                                    <li class="menu-footer__item"><a href="" class="menu-futer__link">Live Chat</a></li>
+                                    <li class="menu-footer__item"><a href="" class="menu-futer__link">Unlimited Support</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer_column">
+                            <div class="footer__label">Resources</div>
+                            <nav class="footer__menu menu__footer">
+                                <ul class="menu-footer__list">
+                                    <li class="menu-footer__item"><a href="" class="menu-futer__link">IOS & Android</a></li>
+                                    <li class="menu-footer__item"><a href="" class="menu-futer__link">Watch a Demo</a></li>
+                                    <li class="menu-footer__item"><a href="" class="menu-futer__link">Customers</a></li>
+                                    <li class="menu-footer__item"><a href="" class="menu-futer__link">API</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div class="footer_column">
+                            <div class="footer__label">Get In Touch</div>
+                            <div class="footer__contacts contacts-footer">
+                                <a href="tel:4805550103" class="contacts-footer__item contacts-footer__item_phone">(480) 555-0103</a>
+                                <a href="" class="contacts-footer__item contacts-footer__item_map">4517 Washington Ave. </a>
+                                <a href="mailto:debra.holt@example.com" class="contacts-footer__item contacts-footer__item_email">debra.holt@example.com</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-
-           
-
-
-    <section class="container commerce">
-        <h2 class="commerce_title">Qubit CommerceAI.</h2>
-        <div>
-            <div class="flex">
-                <div>
-                    <img src="img/Frame1.png" alt="loop">
-                    <h5 class="commerce_pretitle">More insight</h5>
-                    <p class="commerce_text">Learn which products drive performance and which don't, through automated insights you can action.</p>
+            <div class="footer__bottom">
+                <div class="footer__container container">
+                    <div class="footer__copy">Made With Love By Figmaland All Right Reserved </div>
+                    <div class="footer__sicial social">
+                        <a href="" class="social__item">
+                            <img src="img/whoweare/social/01.svg" alt="facebook"></a>
+                        <a href="" class="social__item">
+                            <img src="img/whoweare/social/02.svg" alt="instagram"></a>
+                        <a href="" class="social__item">
+                            <img src="img/whoweare/social/03.svg" alt="twiter"></a>
+                        <a href="" class="social__item">
+                            <img src="img/whoweare/social/04.svg" alt="youtube"></a>
+                    </div>
+                    
                 </div>
-                <div><img src="img/Frame2.png" alt="loop">
-                    <h5 class="commerce_pretitle">More insight</h5>
-                    <p class="commerce_text">Learn which products drive performance and which don't, through automated insights you can action.</p></div>
-                <div><img src="img/Frame3.png" alt="loop">
-                    <h5 class="commerce_pretitle">More insight</h5>
-                    <p class="commerce_text">Learn which products drive performance and which don't, through automated insights you can action.</p></div>
             </div>
-        </div>
-    </section>
-    <footer class="footer">
-        <div class="container flex">
-            <nav>
-                <ul class="footer_ul">
-                    <li class="footer_li">
-                        <a class="footer_link" href="#">Featured Capabilities</a></li>
-                    <li class="futter_li">
-                        <a class="footer_link" href="#">Products</a></li>
-                    <li class="futter_li">
-                        <a class="footer_link" href="#">Resources</a></li>
-                    <li class="futter_li">
-                        <a class="footer_link" href="#">Company</a></li>
-                </ul>
-            </nav>
-            <div>
-                <button class="button main_button">Book a demo</button>
-            </div>
-        </div>
-    </footer>
+        </footer>
+	</div>
+    <script src="js/script.js"></script>
 </body>
-
 </html>
